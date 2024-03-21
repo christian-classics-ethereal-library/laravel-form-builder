@@ -9,11 +9,20 @@
             "email": "husakkristijan@gmail.com"
         }
     ],
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://github.com/christian-classics-ethereal-library/framework.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/christian-classics-ethereal-library/html.git"
+        }
+    ],
     "require": {
         "php": ">=7.1",
-        "laravelcollective/html": "^5.6|^6|^7|^8|^9",
-        "illuminate/database": "^5.6@dev|^6|^7|^8|^9",
-        "illuminate/validation": "^5.6@dev|^6|^7|^8|^9"
+        "laravel/framework": "dev-ccel-laravel5-php8-compat",
+        "laravelcollective/html": "dev-ccel-laravel5-php8-compat"
     },
     "require-dev": {
         "orchestra/testbench": "^6.13"
